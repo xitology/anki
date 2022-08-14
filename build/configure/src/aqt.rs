@@ -191,6 +191,7 @@ fn build_vendor_js(build: &mut Build) -> Result<()> {
             inputs: inputs![
                 ":node_modules:jquery",
                 ":node_modules:jquery-ui",
+                ":node_modules:xyjax",
                 ":node_modules:css-browser-selector",
                 ":node_modules:bootstrap-dist"
             ],

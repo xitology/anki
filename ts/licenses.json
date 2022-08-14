@@ -443,6 +443,14 @@
         "path": "node_modules/delaunator",
         "licenseFile": "node_modules/delaunator/LICENSE"
     },
+    "esm@3.2.25": {
+        "licenses": "MIT",
+        "repository": "https://github.com/standard-things/esm",
+        "publisher": "John-David Dalton",
+        "email": "john.david.dalton@gmail.com",
+        "path": "node_modules/esm",
+        "licenseFile": "node_modules/esm/LICENSE"
+    },
     "fuse.js@6.6.2": {
         "licenses": "Apache-2.0",
         "repository": "https://github.com/krisk/Fuse",
@@ -561,6 +569,13 @@
         "url": "https://github.com/ChALkeR",
         "path": "node_modules/safer-buffer",
         "licenseFile": "node_modules/safer-buffer/LICENSE"
+    },
+    "xyjax@3.0.1": {
+        "licenses": "Apache-2.0",
+        "repository": "https://github.com/sonoisa/XyJax-v3",
+        "publisher": "Isao Sonobe",
+        "path": "node_modules/xyjax",
+        "licenseFile": "node_modules/xyjax/LICENSE"
     }
 }
 

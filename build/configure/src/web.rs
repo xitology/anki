@@ -59,6 +59,9 @@ fn setup_node(build: &mut Build) -> Result<()> {
                 "bootstrap/dist/js/bootstrap.bundle.min.js".into(),
             ],
             "mathjax" => MATHJAX_FILES.iter().map(|&v| v.into()).collect(),
+            "xyjax" => vec![
+                "xyjax/build/xypic.js".into(),
+            ],
             "mdi_unthemed" => [
                 // saved searches
                 "heart-outline.svg",

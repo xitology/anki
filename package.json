@@ -83,7 +83,8 @@
         "lodash-es": "^4.17.21",
         "marked": "^4.0.0",
         "mathjax": "^3.1.2",
-        "protobufjs": "^7"
+        "protobufjs": "^7",
+        "xyjax": "https://github.com/sonoisa/XyJax-v3#ac9aafb2894fd420748b81e33e7764a7cdb3895c"
     },
     "resolutions": {
         "jsdoc/marked": "^4.0.0",

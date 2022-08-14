@@ -3,12 +3,6 @@
 
 /// <reference types="./mathjax-types" />
 
-const packages = ["noerrors", "mathtools", "mhchem"];
-
-function packagesForLoading(packages: string[]): string[] {
-    return packages.map((value: string): string => `[tex]/${value}`);
-}
-
 window.MathJax = {
     tex: {
         displayMath: [["\\[", "\\]"]],
@@ -16,11 +10,11 @@ window.MathJax = {
         processEnvironments: false,
         processRefs: false,
         packages: {
-            "[+]": packages,
+            "[+]": ["noerrors", "mathtools", "mhchem", "xypic"],
         },
     },
     loader: {
-        load: packagesForLoading(packages),
+        load: ["[tex]/noerrors", "[tex]/mathtools", "[tex]/mhchem", "../xypic"],
         paths: {
             mathjax: "/_anki/js/vendor/mathjax",
         },
